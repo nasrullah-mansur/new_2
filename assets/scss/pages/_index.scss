@@ -1,0 +1,217 @@
+.how-loan {
+    .how-loan-items {
+        padding-top: 60px;
+
+        .single-item {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+
+            img {
+                max-width: 90px;
+            }
+
+            h3 {
+                margin-top: 30px;
+                margin-bottom: 15px;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            a {
+                margin-top: auto;
+            }
+        }
+    }
+}
+
+.loan-calculate {
+    .calculate-text {
+        .list {
+            .list-item {
+                position: relative;
+                padding-left: 40px;
+
+                &::after {
+                    content: '';
+                    width: 1px;
+                    height: 100%;
+                    background-color: $primary-color;
+                    position: absolute;
+                    top: 15px;
+                    left: 12px;
+                    z-index: -1;
+                }
+
+                &:last-child {
+                    &::after {
+                        display: none;
+                    }
+                }
+
+                p {
+                    margin-bottom: 0;
+                    padding-bottom: 30px;
+                }
+
+                span {
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 25px;
+                    font-weight: 400;
+                    font-size: 12px;
+                    background-color: $primary-color;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    color: $white;
+                }
+
+                h4 {
+                    font-size: 18px;
+                }
+
+            }
+        }
+    }
+
+    .calculator {
+        padding: 30px;
+        background-color: $bgThree;
+
+        h2 {
+            text-align: center;
+            color: $white;
+            padding-bottom: 30px;
+        }
+
+        .figure {
+            width: 100%;
+            padding-bottom: 30px;
+
+            .output {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 10px;
+    
+                span {
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: $white;
+                }
+
+                input {
+                    height: auto;
+                    border: 0;
+                    max-width: 80px;
+                    padding: 0;
+                    text-align: center;
+                    background-color: transparent;
+                    color: $bgOne;
+                    font-weight: 700;
+                    margin: 0;
+                  }
+            }
+
+            &.total-pay {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                p {
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: $bgOne;
+                    margin-bottom: 0;
+                  }
+                  
+                h4 {
+                    color: $bgOne;
+                    margin-bottom: 0;
+                    font-weight: 700;
+                  }
+              }
+        }
+
+        .content {
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(21, 80, 114, 0.4);
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+
+            span,
+            p {
+                color: $bgOne;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 700;
+            }
+          }
+
+    }
+
+    form {
+        button {
+            border: 0;
+            width: 100%;
+            display: block;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+
+    // Slider range style;
+
+    .loan-calculate .ui-slider-horizontal {
+        height: 5px;
+        background-color: $bgOne;
+        border: 0;
+        border-radius: 0;
+      }
+      
+      .loan-calculate .ui-slider-horizontal .ui-slider-handle {
+        top: -8px;
+      }
+      
+      .loan-calculate .ui-slider .ui-slider-handle {
+        width: 6px;
+      }
+      
+      .loan-calculate .ui-slider .ui-slider-handle {
+        background-color: #fff;
+        border: 0;
+        cursor: pointer;
+        margin-left: -4px;
+      }
+      
+      .loan-calculate .ui-state-active,
+      .loan-calculate .ui-widget-content .ui-state-active,
+      .loan-calculate .ui-widget-header .ui-state-active,
+      .loan-calculate a.ui-button:active,
+      .loan-calculate .ui-button:active,
+      .loan-calculate .ui-button.ui-state-active:hover {
+          border: 0;
+          background: #fff;
+      }
+
+}
+
+
+
+
+
+
+
+
+
+
+

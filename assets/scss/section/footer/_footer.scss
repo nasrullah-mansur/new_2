@@ -1,0 +1,49 @@
+.footer {
+    padding: 90px 0 30px;
+    background-color: inherit;
+    // background-image: linear-gradient($bgTwo, $bgOne);
+    background-color: $bgOne;
+
+    h4 {
+        font-size: 18px;
+        font-weight: 500;
+        color: $white;
+        margin-bottom: 30px;
+    }
+
+    ul {
+        li {
+            a, span {
+                display: inline-block;
+                font-size: 14px;
+                line-height: 28px;
+                color: $white;
+                opacity: .75;
+                font-weight: 400;
+
+                &:not(span):hover {
+                    opacity: 1;
+                    color: $hover-color;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        p {
+            color: $white;
+            margin: 0;
+            padding: 30px 0;
+            text-align: center;
+        }
+    }
+
+    .description {
+        p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 13px;
+            line-height: 23px;
+            text-align: center;
+        }
+    }
+}

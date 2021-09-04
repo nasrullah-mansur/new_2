@@ -1,0 +1,35 @@
+.privacy-policy {
+    h4 {
+        padding-top: 30px;
+        font-size: 32px;
+        font-weight: 400;
+        color: $hover-color;
+    }
+
+    ul {
+        margin-bottom: 15px;
+
+        li {
+            position: relative;
+            line-height: 28px;
+            padding-left: 20px;
+            margin-bottom: 10px;
+
+            &::after {
+                content: '';
+                width: 5px;
+                height: 5px;
+                background-color: $bColor;
+                border-radius: 50%;
+                position: absolute;
+                top: 10px;
+                left: 0;
+            }
+        }
+    }
+
+    p {
+        font-style: 16px;
+        line-height: 28px;
+    }
+}

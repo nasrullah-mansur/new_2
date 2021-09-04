@@ -1,0 +1,60 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: $white;
+    transition: all linear .4s;
+
+    &.active {
+        position: fixed;
+        box-shadow: 5px 0 15px rgb(190, 190, 190);
+    }
+
+    .top-nav {
+        background-color: $bgOne;
+
+        p {
+            padding: 5px 0;
+            margin-bottom: 0;
+            font-size: 16px;
+            font-weight: 500;
+            color: $white;
+
+            a {
+                color: $white;
+
+                &:hover {
+                    text-decoration: underline;
+                    color: $hover-color;
+                }
+            }
+        }
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+
+        .nav {
+            ul {
+                display: flex;
+
+                li {
+                    margin-left: 25px;
+
+                    a {
+                        color: $bColor;
+
+                        &:hover {
+                            color: $hover-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
