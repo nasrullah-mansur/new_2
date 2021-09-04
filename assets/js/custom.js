@@ -1,7 +1,14 @@
 $(document).ready(function() {
     "use strict";
 
-    
+
+    // Main menu;
+    $('.mobile-icon, .page-overlay').on('click', function() {
+      $('.header .nav').toggleClass('active');
+      $('.page-overlay').fadeToggle();
+      $('body').toggleClass('scrollYHidden');
+    });
+
 $('.banner .slider-text').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -36,6 +43,8 @@ $(".card-header").on('click', function(){
      $(this).children("span").removeClass("flaticon-plus").addClass("flaticon-remove")
    }
    })
+
+
 
 
 

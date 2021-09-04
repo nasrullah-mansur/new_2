@@ -30,21 +30,21 @@
                     <h2 class="text-capitalize text-center">Secure a great loan in 3 easy steps</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="steep-item">
                             <span>1</span>
                             <h4>Answer a few questions</h4>
                             <p>Take just two minutes to answer questions about yourself and the loan you need. This service is free, and it won't affect your credit score.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="steep-item">
                             <span>2</span>
                             <h4>Compare your offers</h4>
                             <p>Get prequalified and compare loan offers based on the things that matter to you, like interest rates and monthly payments.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="steep-item">
                             <span>3</span>
                             <h4>E-sign Documents</h4>
@@ -397,22 +397,25 @@
                     </div>
                     
                     <div class="entry-content-containerL phone">
-                        <h2 class="entry-title" itemprop="name">
-                            <a href="/listing-albert-m-quirantes---criminal-serving-miami-dade-county-pre-trial-detention-center-fl-524647431">(786) 565-9241</a>
-                        </h2>
+                        <span>Tel#</span>
+                        <p class="entry-title" itemprop="name">
+                            <a href="tel:(786) 565-9241">(786) 565-9241</a>
+                        </p>
                     </div>
 
                     <div class="time">
-                        <span itemprop="time">
+                        <span>Hours</span>
+                        <p itemprop="time">
                             Open 24 hours
-                        </span>
+                        </p>
                     </div>
 
                     <div class="adAddress">
-                        <span itemprop="address">
+                        <span>Address</span>
+                        <p itemprop="address">
                             1815 NW 7th St Miami,
                             FL 33125
-                        </span>
+                        </p>
                     </div>
 
                     <div class="entry-content-containerR">
@@ -422,6 +425,7 @@
                 </article>
                 <!-- Single item end here -->  
 
+                
                 <!-- Single item start here -->
                 <article class="business-item">
                     <div class="img">
@@ -438,22 +442,25 @@
                     </div>
                     
                     <div class="entry-content-containerL phone">
-                        <h2 class="entry-title" itemprop="name">
-                            <a href="/listing-albert-m-quirantes---criminal-serving-miami-dade-county-pre-trial-detention-center-fl-524647431">(786) 565-9241</a>
-                        </h2>
+                        <span>Tel#</span>
+                        <p class="entry-title" itemprop="name">
+                            <a href="tel:(786) 565-9241">(786) 565-9241</a>
+                        </p>
                     </div>
 
                     <div class="time">
-                        <span itemprop="time">
+                        <span>Hours</span>
+                        <p itemprop="time">
                             Open 24 hours
-                        </span>
+                        </p>
                     </div>
 
                     <div class="adAddress">
-                        <span itemprop="address">
+                        <span>Address</span>
+                        <p itemprop="address">
                             1815 NW 7th St Miami,
                             FL 33125
-                        </span>
+                        </p>
                     </div>
 
                     <div class="entry-content-containerR">
@@ -461,7 +468,9 @@
                         <a href="http://www.duifirm.com" class="visit-side" rel="nofollow" itemprop="url" id="url-524647431">Claim profile</a>
                     </div>
                 </article>
-                <!-- Single item end here -->
+                <!-- Single item end here -->  
+
+                
 
                 </div>
             </section>

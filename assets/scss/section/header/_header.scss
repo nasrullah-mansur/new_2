@@ -39,6 +39,11 @@
         align-items: center;
         padding: 10px 0;
 
+        .mobile-icon {
+            display: none;
+            cursor: pointer;
+        }
+
         .nav {
             ul {
                 display: flex;
@@ -52,6 +57,52 @@
                         &:hover {
                             color: $hover-color;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .header {
+        position: relative;
+
+        .menu {
+            .mobile-icon {
+                display: block;
+            }
+        }
+
+        .nav {
+            position: fixed;
+            top: 102px;
+            right: 0;
+            z-index: 99;
+            box-shadow: 0 10px 10px transparent;
+            min-width: 190px;
+            height: calc(100vh - 102px);
+            background-color: $white;
+            transition: all .4s;
+            transform: translateX(100%);
+
+            &.active {
+                transform: translateX(0);
+                box-shadow: 0 10px 10px #bebebe;
+            }
+
+            ul {
+                flex-direction: column;
+                padding: 15px 20px;
+                width: 100%;
+
+                li {
+                    margin-left: 0 !important;
+                    text-align: right;
+                    margin-bottom: 10px;
+
+                    a {
+                        display: block;
                     }
                 }
             }

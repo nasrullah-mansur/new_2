@@ -36,7 +36,7 @@
                 </div>
                 <div class="how-loan-items">
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 mb-30">
                             <div class="single-item">
                                 <img src="assets/images/icon-credit-card.png" alt="icon" />
                                 <h3>Loans for Bail up to $5,000</h3>
@@ -44,7 +44,7 @@
                                 <a href="#" class="btn-style-two text-uppercase">MORE ABOUT BAIL</a>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 mb-30">
                             <div class="single-item">
                                 <img src="assets/images/icon-list-currency.png" alt="icon" />
                                 <h3>Cash Advance Bail Loans</h3>
@@ -52,7 +52,7 @@
                                 <a href="#" class="btn-style-two text-uppercase">MORE ABOUT US</a>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 mb-30">
                             <div class="single-item">
                                 <img src="assets/images/icon-feature.png" alt="icon" />
                                 <h3>Bail Bond Payment Plans</h3>
@@ -73,7 +73,7 @@
         <section class="loan-calculate section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mb-30">
                         <div class="calculate-text">
                             <h2>How AllHumanity works</h2>
                             <p>3 Steps. Instant Decision.</p>
@@ -97,7 +97,7 @@
                             <a href="#" class="btn-style-two text-uppercase ml-md-4">get started</a>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mb-30">
                         <div class="calculator">
                             <!-- Loan Calculate start -->
                             <div class="loan-calculate">

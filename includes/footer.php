@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-3">
+            <div class="col-6 col-sm-4 col-lg-3 mb-30">
                 <div class="footer-item">
                     <h4>Links</h4>
                     <ul>
@@ -14,7 +14,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-6 col-sm-4 col-lg-3 mb-30">
                 <div class="footer-item">
                     <h4>Social Media</h4>
                     <ul>
@@ -25,7 +25,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-sm-4 col-lg-3 mb-30">
                 <div class="footer-item">
                     <h4>Contact us</h4>
                     <ul>

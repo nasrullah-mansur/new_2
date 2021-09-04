@@ -63,10 +63,8 @@
   .Stars::before {
     content: "★★★★★";
     letter-spacing: 3px;
-    // background: -o-linear-gradient(left, var(--star-background) var(--percent), transparent var(--percent));
-    // background: -webkit-gradient(linear, left top, right top, from(var(--star-background)), to(transparent));
     background: linear-gradient(90deg, var(--star-background) var(--percent), transparent var(--percent));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
     z-index: 2;
@@ -142,15 +140,6 @@
   .personal-loan .top-box .text {
     padding-right: 10px;
   }
-  
-//   .personal-loan .top-box .btn-area a {
-//     display: block;
-//     width: 200px;
-//   }
-  
-//   .personal-loan .top-box .btn-area a:hover {
-//     background-color: #f2f7ff;
-//   }
   
   @media (max-width: 992px) {
     .personal-loan .top-box {
@@ -233,42 +222,6 @@
     position: relative;
   }
   
-  .table .tb-head .notice-text {
-    display: none;
-    position: absolute;
-    right: -15px;
-    bottom: 40px;
-    padding: 15px 15px 20px;
-    width: 300px;
-    background-color: #fff;
-    // -webkit-box-shadow: 0 0 1px 0 rgb(21 21 21 / 10%), 0 2px 8px -1px rgb(21 21 21 / 20%);
-    //         box-shadow: 0 0 1px 0 rgb(21 21 21 / 10%), 0 2px 8px -1px rgb(21 21 21 / 20%);
-    border-radius: 5px;
-    border-bottom: 2px solid #0000ee;
-  }
-  
-  .table .tb-head .notice-text::after {
-    content: "";
-    width: 15px;
-    height: 15px;
-    background-color: #fff;
-    position: absolute;
-    bottom: -10px;
-    right: 15px;
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
-    border-bottom: 2px solid #0000ee;
-    border-right: 2px solid #0000ee;
-  }
-  
-  .table .tb-head .notice-text small {
-    display: block;
-    color: #424542;
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: 400;
-  }
   
   .table .td-1 {
     text-align: center;
@@ -306,16 +259,6 @@
 
   }
   
-//   .table .td-5 a.fill-btn {
-//     background-color: #0157ff;
-//     color: #fff;
-//     border-radius: 5px;
-//     font-weight: 700;
-//   }
-  
-//   .table .td-5 a.fill-btn:hover {
-//     background-color: #0045CD;
-//   }
   
   .table tr td {
     vertical-align: top;
@@ -337,8 +280,6 @@
   .table .th th.border-color {
     border-bottom: 3px solid #0000ee;
   }
-
-
 
 
   /* Personal loan summery */
@@ -512,9 +453,6 @@
       line-height: 15px;
     }
   
-    .mobile-col-content .single-item .content-area p {
-      font-size: 19px;
-    }
   }
 
  
@@ -559,14 +497,16 @@
     max-width: 100px;
   }
   
-  .new-business-list .business-item h2 a {
+  .new-business-list .business-item p a {
     display: inline-block;
     padding-right: 10px;
     font-size: 28px;
+    line-height: 38px;
+    font-weight: 700;
   }
   
-  .new-business-list .business-item .time span,
-  .new-business-list .business-item .adAddress span {
+  .new-business-list .business-item .time p,
+  .new-business-list .business-item .adAddress p {
     display: inline-block;
     font-size: 28px;
       line-height: 38px;
@@ -574,29 +514,24 @@
       color: #222;
       padding-right: 10px;
   }
+
+  .new-business-list .business-item span {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: $primary-color;
+    font-weight: 700;
+    display: none;
+
+    @media (max-width: 991.98px) {
+      display: block;
+    }
+  }
   
   .new-business-list .business-item .entry-content-containerR {
     text-align: center;
   }
-  
-//   .new-business-list .business-item .entry-content-containerR .button {
-//     display: block;
-//     height: 50px;
-//     line-height: 50px;
-//     text-transform: capitalize;
-//     font-size: 18px;
-//     background-color: #0157ff;
-//     color: #fff;
-//     border-radius: 5px;
-//     font-weight: 700;
-//     border-color: transparent;
-//   }
-  
-//   .new-business-list .business-item .entry-content-containerR .visit-side {
-//     display: inline-block;
-//     font-size: 18px;
-//   }
-  
+
   
   .new-business-list .title .one {
     margin-right: 9.5%;
@@ -628,11 +563,8 @@
       display: none;
     }
     .new-business-list .business-item {
-      -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-    //   -webkit-box-shadow: 0 1px 0 rgb(21 21 21 / 10%), 0 2px 8px -1px rgb(21 21 21 / 20%);
-    //           box-shadow: 0 1px 0 rgb(21 21 21 / 10%), 0 2px 8px -1px rgb(21 21 21 / 20%);
-      border: 1px solid #b1b7c5;
+        box-shadow: 0 0 15px rgba(21, 21, 21, 0.2);
       padding: 25px;
       margin-bottom: 30px;
       border-radius: 4px;
@@ -661,6 +593,24 @@
     padding: 15px;
     max-width: 300px;
   }
+
+  @media (max-width: 991.98px) {
+    .new-business-list .business-item .phone {
+      max-width: 50%;
+      width: 50%;
+      text-align: center;
+    }
+    .new-business-list .business-item .time {
+      max-width: 50%;
+      width: 50%;
+      text-align: center;
+    }
+    .new-business-list .business-item .adAddress {
+      max-width: 100%;
+      width: 100%;
+      text-align: center;
+    }
+  }
   
   .new-business-list .entry-content-containerR {
     display: -webkit-box;
@@ -676,57 +626,74 @@
     width: calc(50% - 15px);
   }
   
-  .new-business-list .business-item .entry-content-containerR .visit-side {
-    display: block;
-    height: 47px;
-    line-height: 47px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 18px;
-    color: #0157ff;
-    border: 2px solid #0157ff;
-    border-radius: 4px;
-  }
+  .new-business-list .business-item .entry-content-containerR {
+    
+    .btn-style-two {
+      color: $white;
+      background-color: #ff9948;
+      background-image: none;
   
-  .new-business-list .business-item .entry-content-containerR .visit-side:hover {
-    background-color: #F2F7FF;
-  }
-  
-  }
-  
-  @media (max-width: 785px) {
-    .new-business-list .business-item .phone,
-      .new-business-list .business-item .time,
-        .new-business-list .business-item .adAddress {
-      width: calc(100% / 3);
+      &:hover {
+          color: $white;
+          background-color: $hover-color;
+      }
+    }
+
+      .visit-side {
+        display: inline-block;
+        color: $white;
+        background-color: $primary-color;
+        height: 50px;
+        font-size: 18px;
+        line-height: 50px;
+        border-radius: 5px;
+        padding: 0 30px;
+        white-space: nowrap;
+    
+        &:hover {
+            background-color: $hover-color-2;
+            color: $white;
         }
-    .new-business-list .business-item .phone a,
-      .new-business-list .business-item .time span,
-        .new-business-list .business-item .adAddress span {
-      font-size: 22px;
-      line-height:32px;
-        }
+      }
   
   }
   
-  @media (max-width: 500px) {
-    .new-business-list .business-item .phone a,
-    .new-business-list .business-item .time span,
-      .new-business-list .business-item .adAddress span {
-    font-size: 18px;
-    line-height:28px;
-    padding: 0 5px;
-      }
   
-      .new-business-list .business-item .entry-content-containerR {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-      }
-      .new-business-list .business-item .entry-content-containerR a {
-        margin-bottom: 10px;
-        width: 100%;
-      }
   }
+  
+  // @media (max-width: 785px) {
+  //   .new-business-list .business-item .phone,
+  //     .new-business-list .business-item .time,
+  //       .new-business-list .business-item .adAddress {
+  //     width: calc(100% / 3);
+  //       }
+  //   .new-business-list .business-item .phone a,
+  //     .new-business-list .business-item .time span,
+  //       .new-business-list .business-item .adAddress span {
+  //     font-size: 22px;
+  //     line-height:32px;
+  //       }
+  
+  // }
+  
+  // @media (max-width: 500px) {
+  //   .new-business-list .business-item .phone a,
+  //   .new-business-list .business-item .time span,
+  //     .new-business-list .business-item .adAddress span {
+  //   font-size: 18px;
+  //   line-height:28px;
+  //   padding: 0 5px;
+  //     }
+  
+  //     .new-business-list .business-item .entry-content-containerR {
+  //       -webkit-box-orient: vertical;
+  //       -webkit-box-direction: normal;
+  //           -ms-flex-direction: column;
+  //               flex-direction: column;
+  //     }
+  //     .new-business-list .business-item .entry-content-containerR a {
+  //       margin-bottom: 10px;
+  //       width: 100%;
+  //     }
+  // }
   

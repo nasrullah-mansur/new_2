@@ -1,3 +1,5 @@
+<div class="page-overlay"></div>
+
 <header class="header">
     <div class="top-nav">
         <div class="container">
@@ -11,13 +13,16 @@
                     <img src="assets/images/logo.png" alt="logo" />
                 </a>
             </div>
+            <div class="mobile-icon">
+                <img src="assets/images/menu.png" alt="menu icon">
+            </div>
             <nav class="nav">
                 <ul>
                     <li><a class="text-uppercase" href="about.php">About</a></li>
                     <li><a class="text-uppercase" href="how-it-work.php"> HOW IT WORKS</a></li>
                     <li><a class="text-uppercase" href="faq.php">FAQ</a></li>
                     <li><a class="text-uppercase" href="privacy.php">Privacy</a></li>
-                    <li><a class="text-uppercase" href="#">AGENT LOGIN</a></li>
+                    <li><a class="text-uppercase" href="landing-page.php">Landing page</a></li>
                 </ul>
             </nav>
         </div>
