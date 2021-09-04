@@ -384,8 +384,8 @@
                 <!-- Single item start here -->
                 <article class="business-item">
                     <div class="img">
-                        <div class="entry-content" itemscope itemtype="http://schema.org/LocalBusiness">
-                            <img src="https://i1.ypcdn.com/blob/cde1a9672ae7d3b1a59d34013d6f113af2c350a9_256x256_crop.jpg" itemprop="image" />
+                        <div class="entry-content">
+                            <img src="assets/images/business-holder.jpg" />
                         </div>
                         <div class="rating-content">
                             <div class="rating">
@@ -420,7 +420,7 @@
 
                     <div class="entry-content-containerR">
                         <a href="tel:7863694672" class="btn-style-two" >See Offers &#8594;</a> <br>
-                        <a href="http://www.duifirm.com" class="visit-side" rel="nofollow" itemprop="url" id="url-524647431">Claim profile</a>
+                        <a href="http://www.duifirm.com" class="visit-side" rel="nofollow">Claim profile</a>
                     </div>
                 </article>
                 <!-- Single item end here -->  
@@ -429,8 +429,8 @@
                 <!-- Single item start here -->
                 <article class="business-item">
                     <div class="img">
-                        <div class="entry-content" itemscope itemtype="http://schema.org/LocalBusiness">
-                            <img src="https://i1.ypcdn.com/blob/cde1a9672ae7d3b1a59d34013d6f113af2c350a9_256x256_crop.jpg" itemprop="image" />
+                        <div class="entry-content">
+                            <img src="assets/images/business-holder.jpg" />
                         </div>
                         <div class="rating-content">
                             <div class="rating">
@@ -465,7 +465,7 @@
 
                     <div class="entry-content-containerR">
                         <a href="tel:7863694672" class="btn-style-two" >See Offers &#8594;</a> <br>
-                        <a href="http://www.duifirm.com" class="visit-side" rel="nofollow" itemprop="url" id="url-524647431">Claim profile</a>
+                        <a href="http://www.duifirm.com" class="visit-side" rel="nofollow">Claim profile</a>
                     </div>
                 </article>
                 <!-- Single item end here -->  

@@ -1,0 +1,39 @@
+.business-listing {
+    .section-title {
+        padding-bottom: 50px;
+    }
+
+    .single-item {
+        margin-bottom: 30px;
+        text-align: center;
+
+        img {
+            margin-bottom: 30px;
+        }
+
+        ul {
+            li {
+                a,
+                p {
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+
+                span {
+                    display: inline-block;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .business-description {
+        padding: 30px;
+        margin-top: 30px;
+        box-shadow: 0 0 15px #ddd;
+
+        @media (max-width: 575.98px) {
+            padding: 15px;
+        }
+    }
+}

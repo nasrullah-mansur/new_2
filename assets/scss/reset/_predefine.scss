@@ -251,6 +251,14 @@ ul{
     h2 {
         font-weight: 500;
         font-size: 35px;
+        line-height: 45px;
+    }
+
+    @media (max-width: 575.98px) {
+        h2 {
+            font-size: 28px;
+            line-height: 38px;
+        }
     }
 }
 

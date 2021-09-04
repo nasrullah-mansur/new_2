@@ -260,6 +260,14 @@ ul {
 .section-title h2 {
   font-weight: 500;
   font-size: 35px;
+  line-height: 45px;
+}
+
+@media (max-width: 575.98px) {
+  .section-title h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
 }
 
 .section-padding {
@@ -1000,6 +1008,7 @@ ul {
   letter-spacing: 3px;
   background: -webkit-gradient(linear, left top, right top, from(var(--star-background)), to(transparent));
   background: linear-gradient(90deg, var(--star-background) var(--percent), transparent var(--percent));
+  -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
@@ -1515,7 +1524,7 @@ ul {
         flex-wrap: wrap;
     -webkit-box-shadow: 0 0 15px rgba(21, 21, 21, 0.2);
             box-shadow: 0 0 15px rgba(21, 21, 21, 0.2);
-    padding: 25px;
+    padding: 25px 0;
     margin-bottom: 30px;
     border-radius: 4px;
   }
@@ -1596,5 +1605,65 @@ ul {
   .new-business-list .business-item .entry-content-containerR .visit-side:hover {
     background-color: #3FCB9C;
     color: #ffffff;
+  }
+}
+
+@media (max-width: 991.98px) and (max-width: 991px) {
+  .new-business-list .business-item .entry-content-containerR {
+    padding: 0 15px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 991.98px) and (max-width: 575.98px) {
+  .new-business-list .business-item .entry-content-containerR {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .new-business-list .business-item .entry-content-containerR br {
+    display: none;
+  }
+  .new-business-list .business-item .entry-content-containerR a {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+}
+
+.business-listing .section-title {
+  padding-bottom: 50px;
+}
+
+.business-listing .single-item {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.business-listing .single-item img {
+  margin-bottom: 30px;
+}
+
+.business-listing .single-item ul li a,
+.business-listing .single-item ul li p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.business-listing .single-item ul li span {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.business-listing .business-description {
+  padding: 30px;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 0 15px #ddd;
+          box-shadow: 0 0 15px #ddd;
+}
+
+@media (max-width: 575.98px) {
+  .business-listing .business-description {
+    padding: 15px;
   }
 }

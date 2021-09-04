@@ -64,7 +64,8 @@
     content: "★★★★★";
     letter-spacing: 3px;
     background: linear-gradient(90deg, var(--star-background) var(--percent), transparent var(--percent));
-    background-clip: text;
+    -webkit-background-clip: text;
+        background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
     z-index: 2;
@@ -565,7 +566,7 @@
     .new-business-list .business-item {
           flex-wrap: wrap;
         box-shadow: 0 0 15px rgba(21, 21, 21, 0.2);
-      padding: 25px;
+      padding: 25px 0;
       margin-bottom: 30px;
       border-radius: 4px;
     }
@@ -653,6 +654,24 @@
         &:hover {
             background-color: $hover-color-2;
             color: $white;
+        }
+      }
+
+      @media (max-width: 991px) {
+        padding: 0 15px;
+        margin-top: 30px;
+      }
+
+      @media (max-width: 575.98px) {
+        flex-direction: column;
+
+        br {
+          display: none;
+        }
+
+        a {
+          width: 100% !important;
+          margin-bottom: 10px;
         }
       }
   
